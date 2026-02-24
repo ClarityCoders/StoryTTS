@@ -1,10 +1,10 @@
-# ️ StoryTurbo
+# ️ StoryTTS
 
 ### Chatterbox Turbo TTS Script → Clips → Final WAV
 
 Built for the **Clarity Coders** YouTube channel.
 
-StoryTurbo is a restart-safe renderer for **Chatterbox Turbo TTS** that turns structured story scripts into polished narration audio.
+StoryTTS is a restart-safe renderer for **Chatterbox Turbo TTS** that turns structured story scripts into polished narration audio.
 
 It:
 
@@ -47,7 +47,7 @@ out_audio/<story_slug>/<story_slug>.wav
 #  Project Structure
 
 ```
-StoryTurbo/
+StoryTTS/
 │
 ├── tts_render.py
 ├── story.script.txt
@@ -64,26 +64,19 @@ StoryTurbo/
 ## 1️⃣ Clone Repo
 
 ```bash
-git clone https://github.com/<your-username>/StoryTurbo.git
-cd StoryTurbo
+git clone https://github.com/ClarityCoders/StoryTTS.git
+cd StoryTTS
 ```
 
 ---
 
 ## 2️⃣ Create Virtual Environment (Recommended)
 
-### Windows (PowerShell)
-
-```powershell
-python -m venv chatterbox-env
-.\chatterbox-env\Scripts\Activate.ps1
-```
-
-### Mac/Linux
+### Windows bash example
 
 ```bash
-python3 -m venv chatterbox-env
-source chatterbox-env/bin/activate
+/c/Python3-11/python.exe -m venv venv
+source venv/Scripts/activate
 ```
 
 ---
@@ -205,7 +198,7 @@ Rules:
 
 ---
 
-# ▶️ Run StoryTurbo
+# ▶️ Run StoryTTS
 
 ```bash
 python tts_render.py
@@ -225,7 +218,7 @@ out_audio/<story_slug>/
 
 #  Restart-Safe Rendering
 
-StoryTurbo creates:
+StoryTTS creates:
 
 ```
 manifest_<story_slug>.json
@@ -241,7 +234,7 @@ This means:
 
 # ⏸️ Pause Handling
 
-StoryTurbo generates one silence file per story:
+StoryTTS generates one silence file per story:
 
 ```
 silence_700ms.wav
@@ -305,14 +298,14 @@ https://podcast.adobe.com/en/enhance
 
 Typical workflow:
 
-1. Render via StoryTurbo
+1. Render via StoryTTS
 2. Upload WAV to Adobe Enhance
 3. Download enhanced WAV
 4. Import into DaVinci / Premiere / Final Cut
 
 ---
 
-#  Why StoryTurbo?
+#  Why StoryTTS?
 
 Most TTS scripts:
 
@@ -321,7 +314,7 @@ Most TTS scripts:
 - Don’t manage clips cleanly
 - Don’t handle structured scripts
 
-StoryTurbo fixes all of that.
+StoryTTS fixes all of that.
 
 It is built specifically for:
 
