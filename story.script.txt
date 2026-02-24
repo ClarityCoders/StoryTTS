@@ -1,0 +1,10 @@
+[TITLE]
+Clarity Coders — Free Text to Speach
+
+[NARRATOR_MALE_BASE]
+What If I told you this was free to use? 
+
+[PAUSE]
+
+[NARRATOR_Female_BASE]
+Doing computer science stuff with us is always fun. I would love to be alive in 2026 and living my best life.  

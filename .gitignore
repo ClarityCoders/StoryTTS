@@ -1,0 +1,29 @@
+# venv
+/chatterbox-env/
+.venv/
+
+# outputs
+/out_audio/
+
+# tests/scratch
+/Test/
+
+# python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# env files
+.env
+.env.*
+
+# optional: keep voice references private (recommended)
+# If you want to include voices, remove this and ship small public samples instead.
+/voices/*.wavs
